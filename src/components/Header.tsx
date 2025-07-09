@@ -40,11 +40,15 @@ export function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="outline" size="sm">
-              Acessar Plataforma
+            <Button variant="outline" size="sm" asChild>
+              <a href="https://mapadaacessibilidade2-git-main-dexmachinas-projects.vercel.app/sobre-nos" target="_blank" rel="noopener noreferrer">
+                Acessar Plataforma
+              </a>
             </Button>
-            <Button variant="hero" size="sm">
-              Colaborar
+            <Button variant="hero" size="sm" asChild>
+              <a href="https://github.com/unb-mds/mapadaacessibilidade" target="_blank" rel="noopener noreferrer">
+                Colaborar
+              </a>
             </Button>
           </div>
 
@@ -81,11 +85,15 @@ export function Header() {
               </a>
             ))}
             <div className="pt-4 space-y-2">
-              <Button variant="outline" size="sm" className="w-full">
-                Acessar Plataforma
+              <Button variant="outline" size="sm" className="w-full" asChild>
+                <a href="https://mapadaacessibilidade2-git-main-dexmachinas-projects.vercel.app/sobre-nos" target="_blank" rel="noopener noreferrer">
+                  Acessar Plataforma
+                </a>
               </Button>
-              <Button variant="hero" size="sm" className="w-full">
-                Colaborar
+              <Button variant="hero" size="sm" className="w-full" asChild>
+                <a href="https://github.com/unb-mds/mapadaacessibilidade" target="_blank" rel="noopener noreferrer">
+                  Colaborar
+                </a>
               </Button>
             </div>
           </nav>

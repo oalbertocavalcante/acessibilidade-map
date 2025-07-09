@@ -11,7 +11,7 @@ export function Hero() {
           {/* Badge */}
           <Badge variant="outline" className="mb-6 px-4 py-2 text-sm bg-background/80 backdrop-blur-sm">
             <span className="w-2 h-2 bg-accent rounded-full mr-2 animate-pulse"></span>
-            Prova de Conceito - Release v1.0
+            O Melhor web app para trilhar o seu caminho
           </Badge>
 
           {/* Title */}
@@ -32,7 +32,12 @@ export function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button variant="hero" size="xl" className="group">
+            <Button 
+              variant="hero" 
+              size="xl" 
+              className="group"
+              onClick={() => document.querySelector('#video-demo')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
               Ver Demonstração
             </Button>
@@ -60,11 +65,11 @@ export function Hero() {
         </div>
 
         {/* Video Demo */}
-        <div className="max-w-5xl mx-auto">
+        <div id="video-demo" className="max-w-5xl mx-auto">
           <Card className="p-4 lg:p-6 shadow-xl bg-gradient-card">
             <div className="relative aspect-video rounded-lg overflow-hidden bg-muted">
               <iframe
-                src="https://www.youtube.com/embed/7wtfhZwyrcc"
+                src="https://www.youtube.com/embed/loaeHu9RK80"
                 title="Demonstração da Plataforma Mapa da Acessibilidade"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

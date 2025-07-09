@@ -13,10 +13,10 @@ const technologies = [
         color: "bg-blue-500/10 text-blue-600 border-blue-200"
       },
       {
-        name: "TypeScript",
-        description: "Tipagem estática para maior segurança e produtividade",
+        name: "Javascript",
+        description: "Linguagem dinâmica para maior flexibilidade e produtividade",
         icon: "📝",
-        color: "bg-blue-500/10 text-blue-600 border-blue-200"
+        color: "bg-yellow-500/10 text-yellow-600 border-yellow-200"
       },
       {
         name: "Tailwind CSS",
@@ -42,10 +42,10 @@ const technologies = [
         color: "bg-green-500/10 text-green-600 border-green-200"
       },
       {
-        name: "PostgreSQL",
-        description: "Banco de dados relacional robusto e confiável",
-        icon: "🐘",
-        color: "bg-blue-500/10 text-blue-600 border-blue-200"
+        name: "Supabase",
+        description: "Plataforma backend completa com banco de dados e autenticação",
+        icon: "🚀",
+        color: "bg-green-500/10 text-green-600 border-green-200"
       }
     ]
   },
@@ -60,7 +60,7 @@ const technologies = [
       },
       {
         name: "Geolocalização",
-        description: "APIs de coordenadas GPS e busca por região",
+        description: "APIs de consulta de locais e busca por região",
         icon: "📍",
         color: "bg-red-500/10 text-red-600 border-red-200"
       }
@@ -75,18 +75,6 @@ const technologies = [
         icon: "♿",
         color: "bg-purple-500/10 text-purple-600 border-purple-200"
       },
-      {
-        name: "ARIA",
-        description: "Atributos semânticos para tecnologias assistivas",
-        icon: "🔊",
-        color: "bg-purple-500/10 text-purple-600 border-purple-200"
-      },
-      {
-        name: "Navegação por Teclado",
-        description: "Suporte completo para usuários com deficiência visual",
-        icon: "⌨️",
-        color: "bg-gray-500/10 text-gray-600 border-gray-200"
-      }
     ]
   }
 ]
@@ -94,7 +82,7 @@ const technologies = [
 const architecture = [
   {
     title: "Frontend Responsivo",
-    description: "Interface moderna construída com React e TypeScript, otimizada para todos os dispositivos.",
+    description: "Interface moderna construída com React e Javascript, otimizada para todos os dispositivos.",
     icon: "💻"
   },
   {
@@ -104,7 +92,7 @@ const architecture = [
   },
   {
     title: "Banco de Dados",
-    description: "PostgreSQL garantindo integridade e performance na gestão de dados geográficos.",
+    description: "Supabase garantindo integridade e performance na gestão de dados geográficos.",
     icon: "🗄️"
   },
   {
