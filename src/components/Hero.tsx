@@ -43,7 +43,7 @@ export function Hero() {
             </Button>
             <Button variant="outline" size="xl">
               <MapPin className="w-5 h-5 mr-2" />
-                <a href="https://mapadaacessibilidade2.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://mapadaacessibilidade2.vercel.app/">
               Explorar Mapa
             </Button>
           </div>
