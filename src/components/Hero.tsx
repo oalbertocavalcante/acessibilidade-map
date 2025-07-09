@@ -41,10 +41,11 @@ export function Hero() {
               <Play className="w-5 h-5 mr-2 group-hover:scale-110 transition-transform" />
               Ver Demonstração
             </Button>
-            <Button variant="outline" size="xl">
+            <Button asChild variant="outline" size="xl">
+              <a href="https://mapadaacessibilidade2.vercel.app/">
               <MapPin className="w-5 h-5 mr-2" />
-                <a href="https://mapadaacessibilidade2.vercel.app/">
-              Explorar Mapa
+                Explorar Mapa
+              </a>
             </Button>
           </div>
 
