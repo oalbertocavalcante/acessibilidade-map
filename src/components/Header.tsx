@@ -40,7 +40,7 @@ export function Header() {
           {/* CTA Button */}
           <div className="hidden md:flex items-center gap-4">
             <Button variant="outline" size="sm" asChild>
-              <a href="https://mapadaacessibilidade2-git-main-dexmachinas-projects.vercel.app/sobre-nos" target="_blank" rel="noopener noreferrer">
+              <a href="https://mapadaacessibilidade2.vercel.app" target="_blank" rel="noopener noreferrer">
                 Acessar Plataforma
               </a>
             </Button>
