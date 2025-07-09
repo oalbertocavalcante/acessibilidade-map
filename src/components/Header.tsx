@@ -10,7 +10,6 @@ export function Header() {
     { name: "Funcionalidades", href: "#features" },
     { name: "Tecnologias", href: "#tech" },
     { name: "Equipe", href: "#team" },
-    { name: "Contato", href: "#contact" },
   ]
 
   return (
